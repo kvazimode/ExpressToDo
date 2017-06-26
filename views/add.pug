@@ -1,0 +1,14 @@
+html
+    head
+        title= title
+    body
+        a(href='/') << На главную
+        h2= title
+        form(name='addingform', method='post')
+            p Название:
+            input(type='text', name='title', value= itemTitle)
+            br
+            p Содержимое:
+            input(type='text', name='text', value= itemText)
+            br
+            input(type='submit', value='Добавить')

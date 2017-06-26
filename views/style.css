@@ -1,0 +1,17 @@
+.title {
+    font-weight: 800;
+    background-color: aquamarine
+}
+
+.text{
+    background-color: beige
+}
+
+.item {
+    border: 1px gray solid
+}
+
+.edit{
+    position: absolute;
+    right: 200px
+}

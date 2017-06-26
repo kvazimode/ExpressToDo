@@ -1,0 +1,18 @@
+{
+    "scripts":{
+        "start":"app.js"
+    },
+    "dependencies":{
+        "express": "latest",
+        "pug": "latest",
+        "mongoose": "latest",
+        "body-parser": "latest",
+        "passport": "latest",
+        "passport-local": "latest",
+        "express-session": "latest",
+        "bcrypt-nodejs": "latest",
+        "connect-flash": "latest",
+        "cookie-parser": "latest",
+        "connect-ensure-login": "latest"
+    }
+}

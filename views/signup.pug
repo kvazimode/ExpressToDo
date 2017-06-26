@@ -1,0 +1,16 @@
+html
+    head
+        title= title
+    body
+        if(say)
+            h1= say
+        else
+            h1 Вставай в круг
+        form(action='/signup', method='post')
+            p Придумай погоняло:
+            input(type='text', name='username')
+            br
+            p Кодовое слово:
+            input(type='password', name='password')
+            br
+            input(type='submit', value='Принимайте!')

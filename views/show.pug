@@ -1,0 +1,16 @@
+html
+    head
+        style  
+            include style.css
+        title= title
+    body
+        a(href='/') << На главную
+        h2= title
+        p Гля, что нашлось:
+        
+        each item in list
+            if item.title
+                .item
+                    .title= item.title
+                        a.edit(href='/edit?id='+item._id) edit
+                    .text= item.text

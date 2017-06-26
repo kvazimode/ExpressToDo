@@ -1,0 +1,14 @@
+html
+    head
+        title= title
+    body
+        h1 Стопэ! Кто такой будешь?
+        form(action='/login', method='post')
+            p Представьтесь, уважаемый:
+            input(type='text', name='username')
+            br
+            p Отвечаешь?
+            input(type='password', name='password')
+            br
+            input(type='submit', value='Спокуха, свои')
+        a(href='/signup') К себе возьмёте?
